@@ -50,6 +50,24 @@ main {
 
 .pdf-container embed {
     border: none;
+    display: block;
+}
+
+.pdf-fallback {
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.pdf-fallback a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pdf-fallback a:hover {
+    text-decoration: underline;
 }
 
 footer {
